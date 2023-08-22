@@ -1,4 +1,4 @@
-import React, { Component, useState } from 'react'
+import React, {  useState } from 'react'
 // import React from 'react'
 import NavBar from './components/NavBar'
 import TextForm from './components/TextForm'

@@ -1,4 +1,3 @@
-import React, { useState } from 'react'
 import {BiMoon,BiSolidMoon} from "react-icons/bi"
 
 const NavBar = (props) => {
