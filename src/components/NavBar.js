@@ -1,7 +1,6 @@
 import React, { useState } from 'react'
 import {BiMoon,BiSolidMoon} from "react-icons/bi"
 
-// bg-slate-100 
 const NavBar = (props) => {
     const lightmode=props.lightmode;
     const setlightMode=props.setlightMode;
@@ -23,7 +22,7 @@ function ToggleLightMode(){
    <h3 className='cursor-pointer font-semibold text-[1.25rem]'>TextUtils</h3>
     <ul className='flex gap-4 '>
         <li className='cursor-pointer'>Home</li>
-        <li className='cursor-pointer'>About</li>
+        {/* <li className='cursor-pointer'>About</li> */}
     </ul>
    </div>
     {
